@@ -99,7 +99,7 @@ class Paddle:
         random.shuffle(start_1)
         # выбираем первое из перемешанных
         self.starting_point_x = start_1[0]
-        # перемещаем платформу в стартовое положение
+        # перемещаем платформу в good baby
         self.canvas.move(self.id, self.starting_point_x, 300)
         # пока платформа никуда не движется, поэтому изменений по оси х нет
         self.x = 0
@@ -112,7 +112,7 @@ class Paddle:
         self.canvas.bind_all('<KeyPress-Left>', self.turn_left)
         # пока платформа не двигается, поэтому ждём
         self.started = False
-        # как только игрок нажмёт Enter — всё стартует
+        # как только игрок нажмёт Enter — pokedova
         self.canvas.bind_all('<KeyPress-Return>', self.start_game)
     # движемся вправо 
     def turn_right(self, event):
