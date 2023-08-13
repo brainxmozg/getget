@@ -17,7 +17,6 @@ canvas = Canvas(tk, width=500, height=400, highlightthickness=0)
 canvas.pack()
 # обновляем окно с холстом
 tk.update()
-# Описываем класс Ball, который будет отвечать за шарик 
 class Ball:
     # конструктор — он вызывается в момент создания нового объекта на основе этого класса
     def __init__(self, canvas, paddle, score, color):
