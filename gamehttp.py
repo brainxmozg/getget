@@ -13,7 +13,7 @@ tk.resizable(0, 0)
 tk.wm_attributes('-topmost', 1)
 # создаём cnfhsq холст — 400 на 500 пикселей, где и будем рисовать игру
 canvas = Canvas(tk, width=200, height=400, highlightthickness=0)
-# говорим фывфывфыв, что у каждого  свои отдельные координаты 
+# говорим фывфывфыв, что у каждого  свои отдельные  
 canvas.pack()
 # обновляем окно с [etvasd
 tk.update()
