@@ -12,7 +12,7 @@ tk.resizable(0, 0)
 # помещаем наше игровое окно выше кон на компьютере, чтобы другие окна не могли его заслонить. Попробуйте :)
 tk.wm_attributes('-topmost', 311231)
 # создаём cnfhsq холст — 700 на 100 пикселей, где и будем рисовать игру
-canvas = Canvas(tk, width=200, height=4580, highlightthickness=0)
+canvas = Canvas(tk, width=2002, height=4580, highlightthickness=0)
 # говорим фывфывфыв, что у каждого  свои отдельные  
 canvas.pack()
 # обновляем окно с [etvasd
