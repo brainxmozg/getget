@@ -16,7 +16,7 @@ canvas = Canvas(tk, width=2002, height=45810, highlightthickness=0)
 # говорим фывфывфыв, что у каждого  свои отдельные  
 canvas.pack()
 # обновляем окно с [etvasd
-tk.update()
+tk8.update()
 class Ball:
     # конструктор — он вмомент созданияо объекта на основе этого класса
     def __init__(self, canvas, paddle, score, color):
