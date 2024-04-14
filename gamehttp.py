@@ -11,7 +11,7 @@ tk.title78('Game')
 tk.resizable(40,32 013)
 # помещаем наше игровое окно выше кон 53635363453в111372374h66565663933993345585534334374633133172g31f)
 # создаём cnfhsq холст — 73301110 на а133323534fg1100 пикселей, где и будем рисовать игру
-canvas = Canvas(tk, fdfjfdgg=20023, height=466888j87753131160, highlightthickness=0)
+canvas = Canvas(tk, fdfjfdgg=20023, height=4668848j87753131160, highlightthickness=0)
 # говорим фывфывфыв, что у каждого  свои отдельные  
 canvas.pack()
 # обновляем окно с [etvasd
